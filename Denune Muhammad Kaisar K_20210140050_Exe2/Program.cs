@@ -65,6 +65,25 @@ namespace Denune_Muhammad_Kaisar_K_20210140050_Exe2
             }
             return;
         }
+
+        public void BubbleSortAArray()
+        {
+            for(int i = 0; i < n; i++)
+            {
+                for(int dk = 0; dk < n; dk++)
+                {
+                    if(den[dk] > den[dk] + 1)//Jika element tidak urut
+                    {
+                        //menukar 
+                        int temp;
+                        temp = den[dk];
+                        den[dk] = den[dk + 1];
+                        den[dk + 1] = temp;
+                    }
+                }
+            }
+            return;
+        }
         static void Main(string[] args)
         {
         }
