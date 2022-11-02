@@ -116,9 +116,11 @@ namespace Denune_Muhammad_Kaisar_K_20210140050_Exe2
                 case 3:
                     break;
                 default:
+                    Console.WriteLine("Pilihan Salah!");
+                    Console.ReadKey();
+                    break;
             }
-
-
+            Console.Read();
         }
     }
 }
