@@ -101,6 +101,23 @@ namespace Denune_Muhammad_Kaisar_K_20210140050_Exe2
             pilih = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("");
 
+            switch (pilih)
+            {
+                case 1:
+                    Mylist.read();
+                    Mylist.InsertionSort();
+                    Mylist.display();
+                    break;
+                case 2:
+                    Mylist.read();
+                    Mylist.BubbleSortArray();
+                    Mylist.display();
+                    break;
+                case 3:
+                    break;
+                default:
+            }
+
 
         }
     }
