@@ -84,8 +84,10 @@ namespace Denune_Muhammad_Kaisar_K_20210140050_Exe2
             }
             return;
         }
+        
         static void Main(string[] args)
         {
+            Program Mylist = new Program();
         }
     }
 }
