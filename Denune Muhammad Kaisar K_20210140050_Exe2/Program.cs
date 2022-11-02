@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace Denune_Muhammad_Kaisar_K_20210140050_Exe2
 {
-    internal class Program
+    class Program
     {
+        //Deklarasi
+        private int[] den = new int[25];
+        private int n;
+
+
         static void Main(string[] args)
         {
         }
