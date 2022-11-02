@@ -37,7 +37,19 @@ namespace Denune_Muhammad_Kaisar_K_20210140050_Exe2
                 den[i] = Int32.Parse(s1);
             }
         }
-       
+        public void display()
+        {
+            Console.WriteLine("");
+            Console.WriteLine("-----------------------------");
+            Console.WriteLine(" Element yang telah tersusun ");
+            Console.WriteLine("-----------------------------");
+            for (int dk = 0; dk < n; dk++)
+            {
+                Console.WriteLine(den[dk]);
+            }
+            Console.WriteLine("");
+        }
+
 
         static void Main(string[] args)
         {
