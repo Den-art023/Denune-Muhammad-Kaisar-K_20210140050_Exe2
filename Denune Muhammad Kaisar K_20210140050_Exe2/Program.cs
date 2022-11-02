@@ -66,7 +66,7 @@ namespace Denune_Muhammad_Kaisar_K_20210140050_Exe2
             return;
         }
 
-        public void BubbleSortAArray()
+        public void BubbleSortArray()
         {
             for(int i = 0; i < n; i++)
             {
@@ -91,6 +91,16 @@ namespace Denune_Muhammad_Kaisar_K_20210140050_Exe2
 
             //Deklarasi variabel
             int pilih;
+
+            Console.WriteLine("Menu");
+            Console.WriteLine("=====");
+            Console.WriteLine("1. Insertion Sort");
+            Console.WriteLine("2. Bubble Sort");
+            Console.WriteLine("3. Exit");
+            Console.WriteLine("Pilih (1/2/3): ");
+            pilih = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("");
+
 
         }
     }
