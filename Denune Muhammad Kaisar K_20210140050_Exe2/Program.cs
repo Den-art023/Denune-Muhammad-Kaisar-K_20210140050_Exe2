@@ -50,7 +50,7 @@ namespace Denune_Muhammad_Kaisar_K_20210140050_Exe2
             Console.WriteLine("");
         }
 
-        public void insertionSort()
+        public void InsertionSort()
         {
             for(int i = 0; i < n; i++)
             {
@@ -88,6 +88,10 @@ namespace Denune_Muhammad_Kaisar_K_20210140050_Exe2
         static void Main(string[] args)
         {
             Program Mylist = new Program();
+
+            //Deklarasi variabel
+            int pilih;
+
         }
     }
 }
